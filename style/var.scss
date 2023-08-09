@@ -1,0 +1,62 @@
+$primary: #005fe1 !default;
+$success: #13ce66 !default;
+$danger: #E20021 !default;
+$warning: #E6A23C !default;
+$info: #909399 !default;
+
+$base-dark: #000 !default;
+$base-white: #fff !default;
+
+/*文字颜色*/
+// 主要文字颜色
+$text-primary: #384857 !default;
+// 常规文字颜色
+$text-regular: #5f7c95 !default;
+// 次要文字颜色
+$text-secondary: #a1adb6 !default;
+// 占位文字颜色
+$text-placeholder: #bac8d3 !default;
+
+$primary-light: mix($base-white, $primary, 10%) !default;
+$success-light: mix($base-white, $success, 10%) !default;
+$warning-light: mix($base-white, $warning, 10%) !default;
+$danger-light: mix($base-white, $danger, 10%) !default;
+$info-light: mix($base-white, $info, 10%) !default;
+$base-light: mix($base-white, $primary, 90%) !default;
+
+
+/*边框颜色*/
+$border-base: #bfcbd5 !default;
+$border-light: #cfd9e0 !default;
+$border-lighter: #e3e9ee !default;
+$border-lightest: #edf1f3 !default;
+
+/*背景色*/
+$background-base: #edf1f3 !default;
+$background-base2: #f6f8fa !default;
+
+/*Button*/
+$button-border-default: #DCDFE6 !default;
+$button-color: #606266 !default;
+
+$button-light-hight-big: 44px;
+$button-light-hight-normal: 36px;
+$button-light-hight-small: 32px;
+$button-light-hight-mini: 28px;
+
+$button-font-size-big: 14px;
+$button-font-size-normal: 14px;
+$button-font-size-small: 12px;
+$button-font-size-mini: 12px;
+
+$button-radius-big: 4px;
+$button-radius-normal: 4px;
+$button-radius-small: 3px;
+$button-radius-mini: 3px;
+
+$button-padding-big: 0px 20px;
+$button-padding-normal: 0px 20px;
+$button-padding-small: 0px 15px;
+$button-padding-mini: 0px 15px;
+/*阴影*/
+$box-shadow-base: 3px 3px 10px 0px rgba(0, 0, 0, 0.1);

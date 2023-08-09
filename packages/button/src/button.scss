@@ -1,0 +1,153 @@
+.sup-button {
+  border: none;
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  background: $base-white;
+  color: $button-color;
+  cursor: pointer;
+  position: relative;
+
+  // min-width: 98px;
+  &--default {
+    line-height: $button-light-hight-normal;
+    border-radius: $button-radius-normal;
+    padding: $button-padding-normal;
+    border: 1px solid $button-border-default;
+
+    &:hover {
+      color: #2F42D3;
+      border-color: #c6e2ff;
+      background-color: $base-light;
+    }
+
+    &.is-disabled {
+      border: 1px solid #EBEEF5;
+        color: #C0C4CC;
+      &:hover {
+        background-color: $base-white;
+        color: #C0C4CC;
+        cursor: no-drop;
+      }
+    }
+  }
+
+  &--big {
+    border-radius: $button-radius-big;
+    line-height: $button-light-hight-big;
+    padding: $button-padding-big;
+  }
+
+  &--small {
+    border-radius: $button-radius-small;
+    line-height: $button-light-hight-small;
+    padding: $button-padding-small;
+  }
+
+  &--mini {
+    border-radius: $button-radius-mini;
+    line-height: $button-light-hight-mini;
+    padding: $button-padding-mini;
+  }
+
+  &--normal {
+    border-radius: $button-radius-normal;
+    line-height: $button-light-hight-normal;
+    padding: $button-padding-normal;
+  }
+
+  &--primary {
+    background-color: $primary;
+    color: $base-white;
+    border: 1px solid $primary;
+    &:hover {
+      background-color: $primary-light;
+    }
+
+    &.is-disabled {
+      background-color: mix($base-white, $primary, 80%);
+
+      &:hover {
+        background-color: mix($base-white, $primary, 80%);
+        cursor: no-drop;
+      }
+    }
+  }
+
+  &--warning {
+    background-color: $warning;
+    color: $base-white;
+    border: 1px solid $warning;
+    &:hover {
+      background-color: $warning-light;
+    }
+
+    &.is-disabled {
+      background-color: mix($base-white, $warning, 80%);
+
+      &:hover {
+        background-color: mix($base-white, $warning, 80%);
+        cursor: no-drop;
+      }
+    }
+  }
+
+  &--success {
+    background-color: $success;
+    color: $base-white;
+    border: 1px solid $success;
+    &:hover {
+      background-color: $success-light;
+    }
+
+    &.is-disabled {
+      background-color: mix($base-white, $success, 80%);
+
+      &:hover {
+        background-color: mix($base-white, $success, 80%);
+        cursor: no-drop;
+      }
+    }
+  }
+
+  &--danger {
+    background-color: $danger;
+    color: $base-white;
+    border: 1px solid $danger;
+
+    &:hover {
+      background-color: $danger-light;
+    }
+
+    &.is-disabled {
+      background-color: mix($base-white, $danger, 80%);
+
+      &:hover {
+        background-color: mix($base-white, $danger, 80%);
+        cursor: no-drop;
+      }
+    }
+  }
+
+  &--info {
+    background-color: $info;
+    color: $base-white;
+    border: 1px solid $info;
+
+    &:hover {
+      background-color: $info-light;
+    }
+
+    &.is-disabled {
+      background-color: mix($base-white, $info, 80%);
+
+      &:hover {
+        background-color: mix($base-white, $info, 80%);
+        cursor: no-drop;
+      }
+    }
+  }
+}
+.is-disabled{
+  border: none;
+}
